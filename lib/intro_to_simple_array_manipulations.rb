@@ -28,7 +28,7 @@ flat_array = using_flatten(instruments)
 
 
 def using_insert(array, element)
-  array.insert(element)
+  array.insert(4, element)
 end
 
 list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
