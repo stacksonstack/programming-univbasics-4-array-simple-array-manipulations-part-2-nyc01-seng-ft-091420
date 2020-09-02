@@ -15,7 +15,7 @@ new_array = using_insert(list_of_programming_languages, another_language)
 
 
 def using_uniq(array)
-  
+  array.uniq
 end
 
 haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
