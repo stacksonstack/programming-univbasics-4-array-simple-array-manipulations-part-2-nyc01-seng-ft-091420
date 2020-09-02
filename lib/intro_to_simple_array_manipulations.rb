@@ -20,4 +20,20 @@ end
 
 instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
 flat_array = using_flatten(instruments)
+
+
+
+
+
+
+
+def using_insert(array, element)
+  array.insert(element)
+end
+
+list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
+another_language = "Python"
+new_array = using_insert(list_of_programming_languages, another_language)
+
+
      
